@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="477px" height="462px" viewBox="0 0 477 462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ZOS Multiple VMs</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ZOS-Multiple-VMs" transform="translate(2.000000, 2.000000)">
+            <g id="blocks" stroke="#231F20">
+                <g id="usericon_2_" transform="translate(142.000000, 0.000000)">
+                    <g id="Group" transform="translate(14.000000, 0.000000)" fill-rule="nonzero" stroke-width="3" fill="#FFFFFF">
+                        <circle id="Oval" cx="29.4" cy="28.5" r="28.5"></circle>
+                        <path d="M17.8,46.4 C16.1,47.3 13.5,48.7 10.9,50.1 C15.9,54.4 22.3,56.9 29.4,56.9 C36.5,56.9 42.9,54.3 47.9,50.1 C45.4,48.7 42.8,47.2 41,46.4 C36.4,44.1 33.8,41.2 36.2,37.6 C38.5,34 40.1,32 40.1,24.8 C40.1,17.6 39.7,9 29.3,9 C19,9 18.5,17.7 18.5,24.8 C18.5,32 20.1,34 22.4,37.6 C24.9,41.3 22.3,44.1 17.8,46.4 Z" id="Shape"></path>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 35.000000)">
+                        <circle id="Oval" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="14.2" cy="14.8" r="13.9"></circle>
+                        <polyline id="Shape" stroke-width="3" points="8.6 9.9 16.7 9.9 10 20.4 19.1 20.4"></polyline>
+                        <path d="M19.1,13.7 L9.7,13.7" id="Shape"></path>
+                        <path d="M17.4,15.8 L8,15.8" id="Shape"></path>
+                    </g>
+                </g>
+                <g id="usericon_1_" transform="translate(264.000000, 0.000000)">
+                    <g id="Group" transform="translate(14.000000, 0.000000)" fill-rule="nonzero" stroke-width="3" fill="#FFFFFF">
+                        <circle id="Oval" cx="29.4" cy="28.5" r="28.5"></circle>
+                        <path d="M17.8,46.4 C16.1,47.3 13.5,48.7 10.9,50.1 C15.9,54.4 22.3,56.9 29.4,56.9 C36.5,56.9 42.9,54.3 47.9,50.1 C45.4,48.7 42.8,47.2 41,46.4 C36.4,44.1 33.8,41.2 36.2,37.6 C38.5,34 40.1,32 40.1,24.8 C40.1,17.6 39.7,9 29.3,9 C19,9 18.5,17.7 18.5,24.8 C18.5,32 20.1,34 22.4,37.6 C24.9,41.3 22.3,44.1 17.8,46.4 Z" id="Shape"></path>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 35.000000)">
+                        <circle id="Oval" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="14.2" cy="14.8" r="13.9"></circle>
+                        <polyline id="Shape" stroke-width="3" points="8.6 9.9 16.7 9.9 10 20.4 19.1 20.4"></polyline>
+                        <path d="M19.1,13.7 L9.7,13.7" id="Shape"></path>
+                        <path d="M17.4,15.8 L8,15.8" id="Shape"></path>
+                    </g>
+                </g>
+                <g id="usericon" transform="translate(386.000000, 0.000000)">
+                    <g id="Group" transform="translate(14.000000, 0.000000)" fill-rule="nonzero" stroke-width="3" fill="#FFFFFF">
+                        <circle id="Oval" cx="29.4" cy="28.5" r="28.5"></circle>
+                        <path d="M17.8,46.4 C16.1,47.3 13.5,48.7 10.9,50.1 C15.9,54.4 22.3,56.9 29.4,56.9 C36.5,56.9 42.9,54.3 47.9,50.1 C45.4,48.7 42.8,47.2 41,46.4 C36.4,44.1 33.8,41.2 36.2,37.6 C38.5,34 40.1,32 40.1,24.8 C40.1,17.6 39.7,9 29.3,9 C19,9 18.5,17.7 18.5,24.8 C18.5,32 20.1,34 22.4,37.6 C24.9,41.3 22.3,44.1 17.8,46.4 Z" id="Shape"></path>
+                    </g>
+                    <g id="Group" transform="translate(0.000000, 35.000000)">
+                        <circle id="Oval" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="14.2" cy="14.8" r="13.9"></circle>
+                        <polyline id="Shape" stroke-width="3" points="8.6 9.9 16.7 9.9 10 20.4 19.1 20.4"></polyline>
+                        <path d="M19.1,13.7 L9.7,13.7" id="Shape"></path>
+                        <path d="M17.4,15.8 L8,15.8" id="Shape"></path>
+                    </g>
+                </g>
+                <polygon id="block" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" points="229.3 148.3 125.3 148.3 125.3 148.3 125.3 81.7 229.3 81.7"></polygon>
+                <rect id="block_1_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" x="125.3" y="165" width="347.3" height="209.7"></rect>
+                <rect id="block_2_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" x="135.5" y="245" width="327" height="115.5"></rect>
+                <polygon id="block_3_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" points="349.3 148.3 245.3 148.3 245.3 148.3 245.3 81.7 349.3 81.7"></polygon>
+                <rect id="block_4_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" x="368.7" y="81.7" width="104" height="66.7"></rect>
+                <polygon id="block_5_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" points="472.3 457.7 125 457.7 125 457.7 125 391 125 391 472.3 391"></polygon>
+                <circle id="circle_4_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="172.3" cy="329.7" r="20"></circle>
+                <circle id="circle_3_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="234.3" cy="329.7" r="20"></circle>
+                <circle id="circle_2_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="299.3" cy="329.7" r="20"></circle>
+                <circle id="circle_1_" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="362.3" cy="329.7" r="20"></circle>
+                <circle id="circle" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="427.3" cy="329.7" r="20"></circle>
+                <g id="z" transform="translate(0.000000, 158.000000)">
+                    <ellipse id="Oval" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="30.9" cy="31.3" rx="30.6" ry="31"></ellipse>
+                    <path d="M41.7,28.7 L21,28.7" id="Shape" stroke-width="3"></path>
+                    <path d="M38,33.4 L17.3,33.4" id="Shape" stroke-width="3"></path>
+                    <polyline id="Shape" stroke-width="6" points="18.6 20.4 36.3 20.4 21.7 43.8 41.7 43.8"></polyline>
+                </g>
+                <polyline id="Shape" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" points="98 9.1 87 9.1 87 369 98 369"></polyline>
+                <path d="M87,189 L75,189" id="Shape" stroke-width="3"></path>
+            </g>
+            <g id="text" transform="translate(148.000000, 100.000000)" font-family="Helvetica" fill="#000000" font-weight="normal">
+                <text id="Dapp" font-size="24">
+                    <tspan x="0.5836" y="23.5003">Dapp</tspan>
+                </text>
+                <text id="Protocol-Marketplace" font-size="25">
+                    <tspan x="38.6667" y="186.4998">Protocol Marketplace</tspan>
+                </text>
+                <text id="Dapp" font-size="24">
+                    <tspan x="122.5829" y="23.5001">Dapp</tspan>
+                </text>
+                <text id="Dapp" font-size="24">
+                    <tspan x="245.9163" y="23.5001">Dapp</tspan>
+                </text>
+                <text id="EVM" font-size="24">
+                    <tspan x="124" y="333">EVM</tspan>
+                </text>
+                <text id="zeppelinOS" font-size="47">
+                    <tspan x="22.3334" y="122.8337">zeppelinOS</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
