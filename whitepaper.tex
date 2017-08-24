@@ -411,7 +411,7 @@ usage of a deployed application, analogous to end-user actions and
 events performed on a web page. As such, an off-chain analytics
 dashboard can aggregate on-chain generated contracts events for research
 on their usage. Also, by tracking from which node each transaction is
-originated, it's possible to obtain information on how end-users actually
+originated, it is possible to obtain information on how end-users actually
 connect to the network to interact with the contracts.
 
 The other side of tracking contract-generated events and transactions
@@ -517,7 +517,7 @@ allowing users to perform all operations by using just ZEP tokens.
 This end-user use-case will drive demand and increased
 decentralisation, leading to a healthier, more robust network.
 
-This isn't to say that applications built on zeppelinOS could not be
+This is not to say that applications built on zeppelinOS could not be
 operated with other tokens as well, but settlements between tokens will
 happen using the liquidity created with ZEP.
 
@@ -574,16 +574,16 @@ perform with regards to the upgrade mechanism:
 
 Given 1) is very hard (or impossible) to tie into token mechanics
 without forcing developers to hold ZEP tokens to use the Kernel,
-we'll use 2) as a proxy of 1). To do so, we define the following
+we will use 2) as a proxy of 1). To do so, we define the following
 ``vouch'' mechanic: ZEP token holders can signal their approval for a
 specific Kernel version $V$ by lockingpart of their tokens and
-specifying which version they vouch for. It's worth noting that the
+specifying which version they vouch for. It is worth noting that the
 Kernel is upgraded as a monolithic system and individual components
 are not upgraded in a modular fashion, although this may be subject
 to change in the future.
 
 Locking tokens simply means the user cannot transfer or vouch other
-versions with those same tokens. This doesn't mean tokens are locked for
+versions with those same tokens. This does not mean tokens are locked for
 a specific amount of time.
 
 For example, given a Kernel with only versions v1.0.0 and v1.0.1, and 3
@@ -595,7 +595,7 @@ occur:
     Holder A vouches for v1.0.0 with 50 ZEP tokens and v1.0.1 with 50 ZEP
     tokens.
   \item
-    Holder B doesn't vouch for any version.
+    Holder B does not vouch for any version.
   \item
     Holder C vouches for v1.0.1 with 80 ZEP tokens.
 \end{itemize}
@@ -603,13 +603,13 @@ occur:
 In this example, if holders ABC make up a majority of vouching power in
 the network, the new version 1.0.1 would be considered the latest
 version accepted by the network, in the context of automatic
-upgrades. It's important to note that users can manually change the
+upgrades. It is important to note that users can manually change the
 Kernel version their contracts use, making upgrades of the Kernel
 opt-in. zeppelinOS will also provide tools for contracts to
 automatically upgrade based on a policy set by the developer.
 
 For the rest of the section, whenever we say ``use'' or ``upgrade'' in
-relation to a version, we're referring to the vouching mechanic and not
+relation to a version, we are referring to the vouching mechanic and not
 actually using that version in their contracts.
 
 \subsubsection{Mechanics}
@@ -647,7 +647,7 @@ Tokens given as reward to the developer have a time lock and are only
 redeemable after a certain token amount threshold is met. During this lock-in
 period, vouchers may decide to change their target version.
 
-  Here's an example timeline of vouching changes:
+  Here is an example timeline of vouching changes:
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
@@ -710,10 +710,10 @@ period, vouchers may decide to change their target version.
 
 \subsubsection{Contribution Dynamics}
 
-We acknowledge that it's impossible to measure the value of a
+We acknowledge that it is impossible to measure the value of a
 contribution other than subjectively by the users of the OS. A change as
 small as a single character can save millions of dollars, while a very
-large changeset adding multiple contracts could be useless. There's no
+large changeset adding multiple contracts could be useless. There is no
 objective way of measuring this from the code itself, only by how much
 users adopt the changes.
 
@@ -761,11 +761,11 @@ managed in a centralised manner.
 
 As an end-to-end example of this process think of a developer that is
 building a project on top of the zeppelinOS Kernel who runs into a need
-for a type of smart contract that hasn't been built yet. Through the
+for a type of smart contract that has not been built yet. Through the
 platform, they will post a bounty of a given amount of ZEP tokens for
 its development. Other developers might share the need for the feature,
 and can add their own bounty on top. A developer will see this bounty
-and announce that they began working on the feature. Once it's
+and announce that they began working on the feature. Once it is
 finished, a network delegate will review the
 submission. If
 the feature implementation is acceptable, the bounty will be released to
