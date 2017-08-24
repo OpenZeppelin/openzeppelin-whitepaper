@@ -831,80 +831,58 @@ These upgrades are optional for Kernel users, as they may choose to
 switch manually to 1.3 after reviewing the new version themselves,
 regardless of the vouching of that version.
 
+\pagebreak
+
 \begin{figure}
   \centering
-  \includegraphics[width=0.75\linewidth]{images/image1.jpg}
-  \caption{Illustration of automatic upgrade mechanism for example in section~\ref{autoupgrade}}
+  \includegraphics[width=0.75\linewidth]{images/image1}
+  \caption{
+Illustration of automatic upgrade mechanism for example in section~\ref{autoupgrade}.
+  Previously, version 1.2 was the ``Latest version'', with the highest amount of ZEP
+vouched. As versions 1.3a and 1.3b are introduced, users move their vouched tokens
+to them, having 80\% vouching version 1.3b and 20\% vouch version 1.3a. Version 1.3b
+becomes then the ``Latest version'', as it is the one with the highest vouching.
+}
 \end{figure}
 
-\clearpage
+\vfill
 
-\appendix
-
-\section{Comprehensive list of token role in different
-elements of the OS}
-
-Summary of ZEP token usage by component or feature.
-
-\begin{longtable}[]{@{}p{0.32\linewidth}p{0.32\linewidth}p{0.32\linewidth}@{}}
-\toprule
-\textbf{Section} & \textbf{Sub-Section} & \textbf{Actors and token
-usage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\textbf{zeppelinOS Kernel}\strut
-\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\textbf{Security Patches and Continuous Improvement}\strut
-\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\textbf{Developers:} receive ZEP tokens as a result of user `vouching'
-for their versions.
-
-\textbf{Users:} vouch versions, giving ZEP rewards to developers.\strut
-\end{minipage}\tabularnewline\cmidrule{2-3}
-& \textbf{Shared bug bounties} & Bounties will be issued in
-ZEP.\tabularnewline\midrule
-\multirow{2}{\linewidth}{\textbf{Smart Contract Development Tools}} & \textbf{Attack Management} &
-\emph{No token required.}\tabularnewline\cmidrule{2-3}
-& \textbf{Upgrade Management} & \emph{No token required.}\tabularnewline\cmidrule{2-3}
-& \textbf{Thin Deployments} & \emph{No token required.}\tabularnewline\midrule
-\begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\textbf{Smart Contract Interaction Tools}\strut
-\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\textbf{Scheduling}\strut
-\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\textbf{People in need of async execution}: issue
-
-ZEP token bounties.
-
-\textbf{Scheduling agent}: receives ZEP token for executing.\strut
-\end{minipage}\tabularnewline\cmidrule{2-3}
-\begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\strut
-\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\textbf{Marketplace}\strut
-\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright\strut
-\textbf{Consumers:} access services using ZEP tokens.
-
-\textbf{Service providers:} provide services and receive ZEP
-tokens.\strut
-\end{minipage}\tabularnewline\cmidrule{2-3}
-& \textbf{State Channel Support} & \emph{No token
-required.}\tabularnewline\cmidrule{2-3}
-& \textbf{Blockchain Information Provider} & \emph{No token
-required.}\tabularnewline\midrule
-\textbf{Off-Chain Tools} & \textbf{Analytics \& Monitoring} & Users can
-pay in ZEP or any other token.\tabularnewline\cmidrule{2-3}
-& \textbf{Platform as a Service} & Users can pay in ZEP or any other
-token.\tabularnewline\cmidrule{2-3}
-& \textbf{Continuous Integration for Contracts} & Users can pay in ZEP
-or any other token.\tabularnewline\cmidrule{2-3}
-& \textbf{Automated Code Analysis} & Users can pay in ZEP or any other
-token.\tabularnewline\cmidrule{2-3}
-& \textbf{Developer Tools} & Users can pay in ZEP or any other
-token.\tabularnewline
-\bottomrule
-\end{longtable}
+% \clearpage
+%
+% \appendix
+%
+% \section{Comprehensive list of token role in different
+% elements of the OS}
+%
+% Summary of ZEP token usage by component or feature.
+%
+% \begin{longtable}[]{@{}p{0.32\linewidth}p{0.64\linewidth}@{}}
+% \toprule
+%   \textbf{Section} & \textbf{Actors and token usage}\tabularnewline
+% \midrule
+% \endhead
+% \textbf{zeppelinOS Kernel} & 
+% \textbf{Developers:} receive ZEP tokens as a result of user ``vouching''
+% for their versions.
+%
+% \textbf{Users:} vouch versions, giving ZEP rewards to developers.\strut
+% \tabularnewline\midrule
+% \textbf{Scheduling} &
+% \textbf{People in need of async execution}: issue ZEP token bounties.
+%
+% \textbf{Scheduling agent}: receives ZEP token for executing.\strut
+% \tabularnewline\midrule
+% \textbf{Marketplace} &
+% \textbf{Consumers:} access services using ZEP tokens.
+%
+% \textbf{Service providers:} provide services and receive ZEP
+% tokens.
+% \tabularnewline\midrule
+% \textbf{State Channel Support} & \emph{No token required.}
+% \tabularnewline\midrule
+% \textbf{Off-Chain Tools} & Users can pay in ZEP or any other token.\tabularnewline
+% \bottomrule
+% \end{longtable}
 
 \clearpage
 
