@@ -631,15 +631,15 @@ of tree structure for versions.
 Each of these vouch-change operations will compensate the new version's
 developer according to a function of tokens vouched.
 
-$\mathsf{change\_vouching}(v_1, v_2, t)$ will trigger a
-$\mathsf{payout}(v_2, f(t))$, where $f$ is monotonically increasing over $t$,
+$\mathsf{change\_vouching}(v_1, v_2, n)$ will trigger a
+$\mathsf{payout}(v_2, f(n))$, where $f$ is monotonically increasing over $n$,
 the amount of tokens. Payouts may also include a time-lock or other additional
 safety measures to ensure incentives are aligned.
 
 Whenever a user vouches for a new version with t tokens, a fraction of
 those tokens is sent to the developer as a reward. This causes
-$\mathsf{change\_vouching}(v_1, v_2, t)$ to take $t$ tokens from $v_1$, give $f(t)$
-to the developer, and lock $t - f(t)$ for $v_2$, where $f(t) = t * (1/k)$
+$\mathsf{change\_vouching}(v_1, v_2, n)$ to take $n$ tokens from $v_1$, give $f(n)$
+to the developer, and lock $n - f(n)$ for $v_2$, where $f(n) = n * (1/k)$
 where $k$ is a natural number. This definition of $f$ does not depend
 on $\mathsf{total\_vouching\_tokens}$. This means the payout is a fraction of the
 moved tokens, coming out of the voucher's balance.
