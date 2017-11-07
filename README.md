@@ -1,3 +1,8 @@
-My prefer method of compilation is using `latexmk`.
+To compile pdf:
 
-    latexmk -pdf whitepaper.tex
+    make
+
+Requirements:
+
+- pandoc
+- latexmk (TeX Live)
