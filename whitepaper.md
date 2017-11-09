@@ -17,7 +17,7 @@ url: https://zeppelinos.org
 
 date: November 2017
 
-version: 0.1.1
+version: 0.1.2
 
 tag: WORKING DRAFT
 
