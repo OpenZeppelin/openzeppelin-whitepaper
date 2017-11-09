@@ -94,7 +94,7 @@ functionality and services for smart contracts that use the operating
 system. It is supported by a decentralized upgrading mechanism powered
 by the vouching mechanism governed by ZEP token holders. The
 upgradeability mechanism of the zeppelin\_os Kernel will be based on the
-proxy library pattern [\[1\]][proxylibs] developed in joint
+proxy library pattern\ [\[1\]][proxylibs] developed in joint
 collaboration between Zeppelin and Aragon. Developers will not have to
 spend ZEP tokens to use the Kernel functionality, it will be available
 free of charge.
@@ -105,7 +105,7 @@ The goal for the zeppelin\_os Kernel is to provide a set of functions
 for the smart contracts that run on top of it, requesting services from
 the OS rather than re-implementing them from scratch. This library of
 reusable contracts and functions will be heavily inspired by
-OpenZeppelin [\[2\]][openzeppelin], and held to the same security
+OpenZeppelin\ [\[2\]][openzeppelin], and held to the same security
 standards.
 
 [openzeppelin]: https://openzeppelin.org
@@ -192,7 +192,7 @@ if it is acknowledged by the majority.
 
 Experience has shown that bugs will always be found in a codebase. As
 smart contracts become more complex, the probability of bugs becomes
-larger [\[3\]][schneier], and with it comes a greater possibility of attack.
+larger\ [\[3\]][schneier], and with it comes a greater possibility of attack.
 
 [schneier]: https://www.schneier.com/essays/archives/1999/11/a\_plea\_for\_simplicit.html
 
@@ -474,7 +474,7 @@ Though decentralized and secure, blockchain transactions are limited in
 frequency and cost by block mining times and fees. This caused the
 emergence of alternate off-chain transaction systems that could be
 consolidated back to the blockchain after multiple operations, with
-State Channels [\[4\]][statechan] being one of the latest proposals for
+State Channels\ [\[4\]][statechan] being one of the latest proposals for
 intercommunication between two or more peers, verified and consolidated
 by a smart contract acting as a judge.
 
@@ -584,11 +584,11 @@ without the need to stock a significant amount of tokens in a buffer.
 
 All submissions to the marketplace will be carefully reviewed to ensure
 the highest quality and security. Initially this review process will be
-conducted by the Zeppelin Solutions [\[5\]][zeppelinsolutions] team,
+conducted by the Zeppelin Solutions\ [\[5\]][zeppelinsolutions] team,
 along with a public review with a bug bounty. A centralized marketplace
 review has benefits in terms of maintaining quality of contents and
 efficiency of the review process, but history tells us it also allows
-the controlling party to exert non-competitive influence [\[6\]][apple]
+the controlling party to exert non-competitive influence\ [\[6\]][apple]
 We understand this problem and are fully committed to transitioning into
 a decentralized review model once the most suitable model is found.
 
@@ -647,7 +647,7 @@ increasingly powerful rules and techniques, preventing inadvertently
 deploying potentially unsecure code, and alerting owners of existing
 running contracts of newly found vulnerabilities.
 
-## Heroku [\[7\]][heroku] for Decentralized applications
+## Heroku\ [\[7\]][heroku] for Decentralized applications
 
 [heroku]: https://heroku.com
 
@@ -664,7 +664,7 @@ The Platform as a Service approach also includes acting as a one-stop
 platform for integration with other contracts, providing a user
 interface for the discovery and management of marketplace-offered
 services, so dapp owners can plug-and-play different infrastructure
-building blocks. Like IFTTT [\[8\]][ifttt] recipes for smart contracts.
+building blocks. Like IFTTT\ [\[8\]][ifttt] recipes for smart contracts.
 
 [ifttt]: https://ifttt.com
 
