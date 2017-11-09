@@ -287,8 +287,8 @@ rewarded to the reviewer.
 #### Considerations and Pending Challenges {.unnumbered}
 
 -   Specifics of the voting process for choosing network delegates are
-    still undecided. Likely, this will be similar to a staking
-    delegates system, where each token holder has a right to lock up
+    still undecided. Most likely, this will be a staking
+    system, where each token holder has a right to lock up
     tokens and thus give their vote for a specific delegate/reviewer.
 
 -   The incentives of the reviewer are easily misaligned with the
