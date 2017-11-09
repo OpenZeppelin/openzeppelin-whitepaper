@@ -668,6 +668,8 @@ building blocks. Like IFTTT [\[8\]][ifttt] recipes for smart contracts.
 
 [ifttt]: https://ifttt.com
 
+\clearpage
+
 # References {.unnumbered}
 
 
