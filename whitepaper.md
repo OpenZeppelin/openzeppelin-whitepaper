@@ -110,8 +110,6 @@ standards.
 
 [openzeppelin]: https://openzeppelin.org
 
-![zeppelin\_os in the broader blockchain stack](images/image6.jpg){width=60%}
-
 Examples of things developers will be able to do with these libraries
 include:
 
@@ -130,6 +128,8 @@ include:
 -   Create atomic token swap contracts.
 
 -   Create a token future contract.
+
+![zeppelin\_os in the broader blockchain stack](images/image6.jpg){width=60%}
 
 ## Marketplace
 
