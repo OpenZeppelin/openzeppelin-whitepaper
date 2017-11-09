@@ -670,14 +670,25 @@ building blocks. Like IFTTT [\[8\]][ifttt] recipes for smart contracts.
 
 [ifttt]: https://ifttt.com
 
+# References {.unnumbered}
 
-References
-\[1\] Manuel Araoz, Jorge Izquierdo. Proxy Libraries in Solidity. https://blog.zeppelin. solutions/proxy-libraries-in-solidity-79fbe4b970fd
-\[2\] OpenZeppelin. https://openzeppelin.org/
-\[3\] A plea for simplicity. https://www.schneier.com/essays/archives/1999/11/a_plea_for_simplicit.html
-\[4\] State channels. http://www.jeffcoleman.ca/state-channels/
-\[5\] Zeppelin Solutions. https://zeppelin.solutions/
-\[6\] Time for Apple to face the music? http://newsvote.bbc.co.uk/1/hi/technology/ 7002612.stm
-\[7\] Heroku. https://heroku.com
-\[8\] IFTTT. https://ifttt.com/
-\[9\] Ethereum. https://ethereum.org
+
+\begin{enumerate}[label={[\arabic*]},itemsep=0.4\baselineskip]
+\item Manuel Araoz, Jorge Izquierdo. Proxy Libraries in Solidity. \url{https://blog.zeppelin.solutions/proxy-libraries-in-solidity-79fbe4b970fd}
+
+\item OpenZeppelin. \url{https://openzeppelin.org}
+
+\item A plea for simplicity. \url{https://www.schneier.com/essays/archives/1999/11/a_plea_for_simplicit.html}
+
+\item State channels. \url{http://www.jeffcoleman.ca/state-channels}
+
+\item Zeppelin Solutions. \url{https://zeppelin.solutions}
+
+\item Time for Apple to face the music? \url{http://newsvote.bbc.co.uk/1/hi/technology/7002612.stm}
+
+\item Heroku. \url{https://heroku.com}
+
+\item IFTTT. \url{https://ifttt.com}
+
+\item Ethereum. \url{https://ethereum.org}
+\end{enumerate}
