@@ -669,3 +669,15 @@ services, so dapp owners can plug-and-play different infrastructure
 building blocks. Like IFTTT [\[8\]][ifttt] recipes for smart contracts.
 
 [ifttt]: https://ifttt.com
+
+
+References
+\[1\] Manuel Araoz, Jorge Izquierdo. Proxy Libraries in Solidity. https://blog.zeppelin. solutions/proxy-libraries-in-solidity-79fbe4b970fd
+\[2\] OpenZeppelin. https://openzeppelin.org/
+\[3\] A plea for simplicity. https://www.schneier.com/essays/archives/1999/11/a_plea_for_simplicit.html
+\[4\] State channels. http://www.jeffcoleman.ca/state-channels/
+\[5\] Zeppelin Solutions. https://zeppelin.solutions/
+\[6\] Time for Apple to face the music? http://newsvote.bbc.co.uk/1/hi/technology/ 7002612.stm
+\[7\] Heroku. https://heroku.com
+\[8\] IFTTT. https://ifttt.com/
+\[9\] Ethereum. https://ethereum.org
