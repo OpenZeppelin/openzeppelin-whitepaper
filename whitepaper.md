@@ -201,8 +201,7 @@ response. Triggering an emergency pause, reverting to a previous
 uncompromised state, or forking a contract are some of the
 possibilities.
 
-![Illustration of automatic upgrade mechanism for example in section
-3.2.4. Previously, version 1.2 was the "Latest version", with the
+![Illustration of automatic upgrade mechanism. Previously, version 1.2 was the "Latest version", with the
 highest amount of ZEP vouched. As versions 1.3a and 1.3b are introduced,
 users move their vouched tokens to them, having 80\% vouching version
 1.3b and 20\% vouch version 1.3a. Version 1.3b becomes then the "Latest
