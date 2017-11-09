@@ -257,8 +257,6 @@ version their contracts use, making upgrades of the Kernel opt-in.
 zeppelin\_os will also provide tools for contracts to automatically
 upgrade based on a policy set by the developer.
 
-![ZEP in relation to zeppelin\_os stack.](images/image5.png){width=50%}
-
 ## Development Bounties
 
 In order to guide the development of the zeppelin\_os Kernel and
