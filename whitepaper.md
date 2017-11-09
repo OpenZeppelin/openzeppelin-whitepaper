@@ -560,6 +560,8 @@ service's native token, but the payment would be delivered as the
 equivalent value in ZEP, making this another truly real time option,
 without the need to stock a significant amount of tokens in a buffer.
 
+![The alternative mechanisms for payments to external protocols.](images/image3.png){width=70%}
+
 ### Considerations and Pending Challenges {.unnumbered}
 
 -   The exchange method suffers the same latency and scalability
@@ -580,7 +582,6 @@ without the need to stock a significant amount of tokens in a buffer.
     integration to hold some amount of the respective protocol's
     tokens, possibly increasing barriers to entry.
 
-![The alternative mechanisms for payments to external protocols.](images/image3.png){width=70%}
 
 ## Marketplace Curation
 
