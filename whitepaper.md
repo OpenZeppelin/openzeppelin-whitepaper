@@ -464,7 +464,7 @@ clients and the providers who wish to offer the execution of async
 operations, effectively setting up nodes that power the distributed
 scheduling network.
 
-## Messaging library
+## Messaging Library
 
 The OS will provide various mechanisms for inter-contract communication
 and networking, such as publish-subscribe messaging, message queues, and
@@ -487,7 +487,7 @@ channels. Besides providing a cheaper communication mechanism, this also
 leaves the door open for future direct integration with off-chain state
 payment networks in the platform.
 
-## Trusted oracles
+## Trusted Oracles
 
 The OS will provide a standard interface to access, from a smart
 contract, information on the blockchain currently unavailable from
@@ -548,7 +548,7 @@ would decrease to the lowest point where it makes sense to provide such
 a service. On the user side, this competitive tendency to lower cost,
 will lead to the best achievable prices over time.
 
-## ZEP-based economy
+## ZEP-based Economy
 
 The third option would be for the developers who want to provide
 services through the marketplace to allow their smart contracts to
