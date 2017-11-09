@@ -145,7 +145,7 @@ be facilitated through different standard execution models powered by the
 OS, and payments executed with the platform's ZEP tokens, thus enabling
 an effective in-OS economy between service providers and their client
 applications. This model would allow, for example, any smart contract to
-store data both in Filecoin and StorJ at the same time, without the need
+store data both in Filecoin and Storj at the same time, without the need
 to use either's native token, paying both with ZEP.
 
 Though smart contracts are currently quite limited in their interactions
@@ -228,7 +228,7 @@ Given 1) is very hard (or impossible) to tie into token mechanics
 without forcing developers to hold ZEP tokens to use the Kernel, we will
 use 2) as a proxy of 1). To do so, we define the following "vouching"
 mechanic: ZEP token holders can signal their approval for a specific
-Kernel version `V` by locking part of their tokens and specifying which
+Kernel version $V$ by locking part of their tokens and specifying which
 version they vouch for. It is worth noting that the Kernel is upgraded
 as a monolithic system and individual components are not upgraded in a
 modular fashion, although this may be subject to change in the future.
@@ -313,17 +313,17 @@ parallel, creating a sort of tree structure for versions.
 Each of these vouching operations will compensate the new version's
 developer according to a function of tokens vouched.
 
-*change\_vouching f(v~1~, v~2~, n)* will trigger a *payout(v~2~, f(n))*,
-where *f* is monotonically increasing over *n*, the amount of tokens.
+$\mathsf{change\_vouching}(v_1, v_2, n)$ will trigger a $\mathsf{payout}(v_2, f(n))$,
+where $f$ is monotonically increasing over $n$, the amount of tokens.
 Payouts may also include a time-lock or other additional safety measures
 to ensure incentives are aligned.
 
 Whenever a user vouches for a new version with t tokens, a fraction of
 those tokens is sent to the developer as a reward. This causes
-*change\_vouching(v~1~, v~2~, n)* to take *n* tokens from *v*~1~, give
-*f*(*n*) to the developer, and lock *n* - *f*(*n*) for *v*~2~, where
-*f*(*n*) = *n* * (1*/k*) where *k* is a natural number. This definition
-of *f* does not depend on total vouching tokens. This means the payout
+$\mathsf{change\_vouching}(v_1, v_2, n)$ to take $n$ tokens from $v_1$, give
+$f(n)$ to the developer, and lock $n - f(n)$ for $v_2$, where
+$f(n) = n * (1/k)$ where $k$ is a natural number. This definition
+of $f$ does not depend on total vouching tokens. This means the payout
 is a fraction of the moved tokens, coming out of the voucher's balance.
 Tokens given as reward to the developer have a time lock and are only
 redeemable after a certain token amount threshold is met. During this
@@ -373,17 +373,17 @@ An example timeline of vouching changes would look like this:
 \bottomrule
 \end{longtable}
                                                         
--   At time *t*~0~, version 2.0.2 is released fixing a vulnerability in
+-   At time $t_0$, version 2.0.2 is released fixing a vulnerability in
     version 2.0.1.
 
--   At time *t*~1~, a user with 10\% of the total vouching power moves
-    their tokens from 2.0.1 to 2.0.2 (change vouching(2*.*0*.*1*,*
-    2*.*0*.*2*,* 10)) which results in a compensation to the
-    developers of 2.0.2 (payout(2*.*0*.*2*, f*(10))).
+-   At time $t_1$, a user with 10\% of the total vouching power moves
+    their tokens from 2.0.1 to 2.0.2 ($\mathsf{change\_vouching}(2.0.1, 
+    2.0.2, 10)$) which results in a compensation to the
+    developers of 2.0.2 ($\mathsf{payout}(2.0.2, f(10))$).
 
--   At time *t*~2~, the other user of 2.0.1 moves their tokens to 2.0.2,
+-   At time $t_2$, the other user of 2.0.1 moves their tokens to 2.0.2,
     and this results in the compensation to the developers
-    (payout(2*.*0*.*2*, f*(70))).
+    ($\mathsf{payout}(2.0.2, f(70))$).
 
 ## Rewards
 
