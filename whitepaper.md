@@ -83,7 +83,7 @@ upgrading or patching Kernel code. This is achieved with a vouching
 mechanism where network participants can lock up ZEP tokens to vouch for
 a new version of the Kernel. Upgrading to a new version is free, so this
 vouching mechanism is primarily a way for the network to indicate the
-latest, most-qualified version of the Kernel while rewardin contributors
+latest, most-qualified version of the Kernel while rewarding contributors
 with a portion of the staked tokens.
 
 ## Kernel
@@ -561,13 +561,6 @@ without the need to stock a significant amount of tokens in a buffer.
 
 -   The exchange method suffers the same latency and scalability
     problems of any on-chain exchange.
-
--   The buffer method requires the holding of protocol tokens in a smart
-    contract. Some protocols may not support smart contracts, thus
-    making it difficult to use the buffer method for these protocols in
-    creating proxies for the marketplace. To solve this problem, we
-    will build bridges to allow users of the OS to interact with other
-    blockchain platforms (e.g. Tezos).
 
 -   The ZEP-based solution requires the developers providing services
     through the marketplace to modify their smart code to accept ZEP,
