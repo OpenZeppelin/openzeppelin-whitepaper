@@ -1,6 +1,6 @@
 ---
 title: |
-  zeppelin\_os: An open-source, decentralized platform of tools and
+  ZeppelinOS: An open-source, decentralized platform of tools and
   services on top of the EVM to develop and manage smart contract
   applications securely
 
@@ -37,15 +37,15 @@ abstract: |
   fueling innovation and accelerating the move to a decentralized, open
   economy.
 
-  To address these problems and opportunities, we propose zeppelin\_os, a
-  blockchain operating system for decentralized applications. zeppelin\_os
+  To address these problems and opportunities, we propose ZeppelinOS, a
+  blockchain operating system for decentralized applications. ZeppelinOS
   allows developers to easily build secure applications that use and
   combine existing protocols, while creating incentives for the perpetual
-  development of zeppelin\_os.
+  development of ZeppelinOS.
 
-  zeppelin\_os is made up of three core components: the kernel, the
+  ZeppelinOS is made up of three core components: the kernel, the
   marketplace, and the SDK. We also propose the ZEP token to fuel the
-  zeppelin\_os ecosystem. The token is used to consume and provide
+  ZeppelinOS ecosystem. The token is used to consume and provide
   services in a protocol marketplace. It also serves as the primary
   governance mechanism for kernel upgrades, which will be updated as
   frequently as OpenZeppelin, making it a key piece of our proposal.
@@ -70,7 +70,7 @@ On the other hand, decentralized networks are not structured to work
 together, often needing access to each other's native tokens to operate,
 making it hard to leverage external systems.
 
-To address these issues we propose zeppelin\_os: an open-source,
+To address these issues we propose ZeppelinOS: an open-source,
 decentralized platform of tools and services on top of the EVM to
 securely build and manage smart contract applications, free of charge.
 
@@ -78,7 +78,7 @@ securely build and manage smart contract applications, free of charge.
 
 ## Vouching
 
-In the context of zeppelin\_os, governance refers to the action of
+In the context of ZeppelinOS, governance refers to the action of
 upgrading or patching Kernel code. This is achieved with a vouching
 mechanism where network participants can lock up ZEP tokens to vouch for
 a new version of the Kernel. Upgrading to a new version is free, so this
@@ -88,12 +88,12 @@ with a portion of the staked tokens.
 
 ## Kernel
 
-The Kernel is the foundation layer of zeppelin\_os. Existing as a smart
+The Kernel is the foundation layer of ZeppelinOS. Existing as a smart
 contract library deployed on the blockchain, it provides a set of basic
 functionality and services for smart contracts that use the operating
 system. It is supported by a decentralized upgrading mechanism powered
 by the vouching mechanism governed by ZEP token holders. The
-upgradeability mechanism of the zeppelin\_os Kernel will be based on the
+upgradeability mechanism of the ZeppelinOS Kernel will be based on the
 proxy library pattern\ [\[1\]][proxylibs] developed in joint
 collaboration between Zeppelin and Aragon. Developers will not have to
 spend ZEP tokens to use the Kernel functionality, it will be available
@@ -101,7 +101,7 @@ free of charge.
 
 [proxylibs]: https://blog.zeppelin.solutions/proxy-libraries-in-solidity-79fbe4b970fd
 
-The goal for the zeppelin\_os Kernel is to provide a set of functions
+The goal for the ZeppelinOS Kernel is to provide a set of functions
 for the smart contracts that run on top of it, requesting services from
 the OS rather than re-implementing them from scratch. This library of
 reusable contracts and functions will be heavily inspired by
@@ -129,13 +129,13 @@ include:
 
 -   Create a token future contract.
 
-![zeppelin\_os in the broader blockchain stack](images/image6.jpg){width=60%}
+![ZeppelinOS in the broader blockchain stack](images/image6.jpg){width=60%}
 
 ## Marketplace
 
 Much as traditional mobile app marketplaces act as central hubs for
 mobile users to browse and purchase available services, one of the
-central features of zeppelin\_os is a marketplace for smart contracts,
+central features of ZeppelinOS is a marketplace for smart contracts,
 where services can be purchased and integrated into other applications.
 
 Today the majority of interactions with smart contracts are triggered by
@@ -151,13 +151,13 @@ to use either's native token, paying both with ZEP.
 Though smart contracts are currently quite limited in their interactions
 with the off-chain world, the advent of services that provide the bridge
 to execute off-chain effects can offer true decentralized applications the
-power to run entirely on zeppelin\_os. Examples of such services are
+power to run entirely on ZeppelinOS. Examples of such services are
 file storage, mail sending, push notifications, off-chain intensive
 computation, machine-learning services, etc.
 
 ## Software Development Kit
 
-As an addition to the on-chain services offered by zeppelin\_os, the
+As an addition to the on-chain services offered by ZeppelinOS, the
 platform will provide a set of off-chain tools aimed at simplifying the
 development, debugging, testing, deployment, and monitoring of
 decentralized applications. We intend to raise the quality and security
@@ -170,9 +170,9 @@ integration systems, static code analysis, and health monitoring.
 
 Being a layer that smart contract applications interact with on-chain,
 we open up the possibility of seamlessly delivering upgrades to
-zeppelin\_os users. This enables rolling out security mitigations and
+ZeppelinOS users. This enables rolling out security mitigations and
 patches as soon as a vulnerability is found, instantly protecting all
-users of zeppelin\_os.
+users of ZeppelinOS.
 
 Users of the Kernel libraries will have the option to enable automatic
 upgrades. For instance, users may specify that they use version \^1.2,
@@ -196,7 +196,7 @@ larger\ [\[3\]][schneier], and with it comes a greater possibility of attack.
 
 [schneier]: https://www.schneier.com/essays/archives/1999/11/a\_plea\_for\_simplicit.html
 
-To prepare, zeppelin\_os will provide users a toolbox for attack
+To prepare, ZeppelinOS will provide users a toolbox for attack
 response. Triggering an emergency pause, reverting to a previous
 uncompromised state, or forking a contract are some of the
 possibilities.
@@ -213,7 +213,7 @@ vouching.](images/image1.png){width=70%}
 Crypto-economic protocols create financial incentives to drive a network
 of rational actors to coordinate their behavior towards a common goal.
 Often, the alignment of incentives is achieved by introducing a native
-token. In the case of zeppelin\_os, the native token is ZEP, and its
+token. In the case of ZeppelinOS, the native token is ZEP, and its
 goal is to align network incentives to establish, grow, and maintain an
 ecosystem for easy development of secure decentralized applications.
 
@@ -253,12 +253,12 @@ the network, the new version 1.0.1 would be considered the latest
 version accepted by the network, in the context of automatic upgrades.
 It is important to note that users can manually change the Kernel
 version their contracts use, making upgrades of the Kernel opt-in.
-zeppelin\_os will also provide tools for contracts to automatically
+ZeppelinOS will also provide tools for contracts to automatically
 upgrade based on a policy set by the developer.
 
 ## Development Bounties
 
-In order to guide the development of the zeppelin\_os Kernel and
+In order to guide the development of the ZeppelinOS Kernel and
 incentivize contributors to begin working on an issue, the OS will
 provide a platform for development bounties. In it, users can post their
 desired features and place an upfront bounty for them. The same can be
@@ -270,7 +270,7 @@ delegated review process for development bounty proposals, but
 initially, this process will be managed in a centralized manner.
 
 As an end-to-end example of this process, think of a developer that is
-building a project on top of the zeppelin\_os Kernel who needs a type of
+building a project on top of the ZeppelinOS Kernel who needs a type of
 smart contract that has not been built yet. Through the platform, they
 can post a bounty of a given amount of ZEP tokens for its development.
 Other developers might share the need for the feature, and can add their
@@ -372,12 +372,12 @@ An example timeline of vouching changes would look like this:
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
-                                                        
+
 -   At time $t_0$, version 2.0.2 is released fixing a vulnerability in
     version 2.0.1.
 
 -   At time $t_1$, a user with 10\% of the total vouching power moves
-    their tokens from 2.0.1 to 2.0.2 ($\mathsf{change\_vouching}(2.0.1, 
+    their tokens from 2.0.1 to 2.0.2 ($\mathsf{change\_vouching}(2.0.1,
     2.0.2, 10)$) which results in a compensation to the
     developers of 2.0.2 ($\mathsf{payout}(2.0.2, f(10))$).
 
@@ -426,8 +426,8 @@ from the user's balance upon vouching.
 
 ## Standard Library
 
-zeppelin\_os will provide an on-chain standard library of reusable
-contracts and functions. The goal for the zeppelin\_os Kernel is to
+ZeppelinOS will provide an on-chain standard library of reusable
+contracts and functions. The goal for the ZeppelinOS Kernel is to
 provide a set of functions to act as system calls for the smart
 contracts that run on top of it, thus requesting services from the OS
 rather than reimplementing them. Smart contracts building on the OS will
@@ -435,7 +435,7 @@ call into this library.
 
 ## Contract Upgradeability
 
-In addition to having upgradeability of the zeppelin\_os Kernel itself,
+In addition to having upgradeability of the ZeppelinOS Kernel itself,
 the underlying implementation will be made available to users of the OS
 to enable upgradeability of their own smart contracts. This allows
 rolling out contract-specific security patches, as well as the
@@ -496,13 +496,13 @@ size, average mining block times, etc.
 
 # Marketplace
 
-The zeppelin\_os marketplace creates a plug and play experience for the
+The ZeppelinOS marketplace creates a plug and play experience for the
 developer when integrating various protocol services into a
 decentralized application. Without it, if a developer wants to utilize
 more than one protocol's service they would need to provide exchange
 functionality.
 
-Applications built on zeppelin\_os may include one or more external
+Applications built on ZeppelinOS may include one or more external
 protocols via the marketplace. As the native token ZEP is used to
 operate applications built on the platform, there needs to be a
 mechanism by which the proxy for an external protocol converts ZEP into
@@ -520,7 +520,7 @@ existing exchange infrastructure to manage conversions between ZEP and
 other tokens.
 
 Each protocol providing services through the marketplace would connect
-to a zeppelin\_os exchange integration allowing for the conversion of
+to a ZeppelinOS exchange integration allowing for the conversion of
 ZEP into other protocol tokens. In the future, competitive mechanics can
 be added to the exchange process by creating a mechanism for exchanges
 to compete for any given transaction. If opened up to the market,
@@ -620,7 +620,7 @@ standard in the software industry, as a means to increase the confidence
 on the project health by checking its tests in a separate environment at
 every stage of development. However, this requires a testing environment
 with conditions as similar as possible as the production one. As such,
-zeppelin\_os will provide the required services for effectively testing
+ZeppelinOS will provide the required services for effectively testing
 smart contracts and their interactions with other services in a
 continuous integration fashion, including replayability of previous
 transactions using the updated codebase to compare generated outcomes.
@@ -635,7 +635,7 @@ applications, applying these strategies to smart contracts code is a
 must, and an area to be continuously researched and improved.
 
 Having access to the code powering the smart contracts applications,
-zeppelin\_os shall offer automated code analysis services with
+ZeppelinOS shall offer automated code analysis services with
 increasingly powerful rules and techniques, preventing inadvertently
 deploying potentially unsecure code, and alerting owners of existing
 running contracts of newly found vulnerabilities.
