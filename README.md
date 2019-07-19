@@ -2,6 +2,8 @@
 
 _Formerly known as the ZeppelinOS whitepaper._
 
+## Development
+
 To compile to pdf:
 
     make
