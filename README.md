@@ -1,4 +1,4 @@
-# OpenZeppelin SDK Whitepaper
+# OpenZeppelin Platform Whitepaper
 
 _Formerly known as the ZeppelinOS whitepaper._
 
