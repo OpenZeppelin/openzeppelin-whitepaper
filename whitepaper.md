@@ -263,7 +263,7 @@ incentivize contributors to begin working on an issue, the OS will
 provide a platform for development bounties. In it, users can post their
 desired features and place an upfront bounty for them. The same can be
 done for bugs that need to be fixed. The aim is for bounties to act as a
-pushing force for the development of the Kernel and a motivation for
+driving force for the development of the Kernel and a motivation for
 developers, in addition to the usual reward that comes with the
 community vouching an already released version. We aim to implement a
 delegated review process for development bounty proposals, but
@@ -404,7 +404,7 @@ contribution.
 For instance, if the proposed upgrade is too small in terms of
 value-added, the token holders will refrain from vouching for it, as the
 payout to the developer would be unfair. This will prevent developers
-from upgrade spamming, and incentivizes them to band-up to submit bigger
+from upgrade spamming, and incentivizes them to band together to submit bigger
 contributions encompassing several small changes, with a payout address
 set to a fund-splitting contract.
 
